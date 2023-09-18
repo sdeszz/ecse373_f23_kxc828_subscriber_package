@@ -78,7 +78,8 @@ int main(int argc, char **argv)
    */
 // %Tag(SUBSCRIBER)%
   ros::Subscriber sub = n.subscribe("topic_name", 1000, chatterCallback);
-// %EndTag(SUBSCRIBER)%
+
+  // %EndTag(SUBSCRIBER)%
 
   /**
    * ros::spin() will enter a loop, pumping callbacks.  With this version, all
